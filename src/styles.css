@@ -1,0 +1,110 @@
+.App {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+.title {
+  text-align: center;
+  color: rgb(65, 65, 65);
+}
+.links {
+  list-style: none;
+  text-decoration: none;
+  margin: 0 1rem;
+  color: rgb(87, 87, 87);
+  font-size: 1.5rem;
+}
+.header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(202, 202, 202);
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.linkDiv {
+  text-align: center;
+  margin: 2rem 0 0;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.product {
+  padding: 1rem;
+  border: 1px solid rgb(175, 175, 175);
+  margin: 1rem;
+  border-radius: 10px;
+  height: 100%;
+  flex: 15%;
+}
+.product:hover {
+  box-shadow: 1px 1px 10px rgb(167, 167, 167);
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+.product button {
+  border-radius: 50px;
+  height: 45px;
+  width: fit-content;
+  float: right;
+  border: none;
+  margin: 0.5rem;
+  color: grey;
+  padding: 1rem;
+}
+.product img {
+  width: 75%;
+}
+.img {
+  text-align: center;
+  flex-grow: 1;
+}
+.product p {
+  color: rgb(117, 117, 117);
+}
+.cartItems {
+  margin: 2rem;
+}
+.cartItem h1 {
+  margin: 0;
+}
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(138, 138, 138);
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.cartButton {
+  margin: 0.5rem;
+  border: 1px solid #efefef;
+}
+.button {
+  border: none;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+.quantity {
+  margin: 0 1rem;
+}
+.productDesc {
+  position: fixed;
+  top: 25%;
+  left: 17%;
+  width: 60%;
+  background-color: rgb(27, 31, 59);
+  padding: 2rem;
+  color: white;
+}
+.productDesc button {
+  width: 45px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
